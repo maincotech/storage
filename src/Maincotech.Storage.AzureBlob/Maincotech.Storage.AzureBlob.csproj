@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Version>1.0.1</Version>
+    <Authors>Minghao Li</Authors>
+    <Company>Maincotech</Company>
+    <Copyright>Maincotech</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/maincotech/storage</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/maincotech/storage</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.6.0" />
+    <PackageReference Include="Maincotech.Common" Version="1.0.6" />
+  </ItemGroup>
+
+</Project>
